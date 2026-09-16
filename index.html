@@ -1,19 +1,78 @@
----
-layout: noheader
----
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>cfazendin.com</title>
+  <meta name="description" content="Christopher Fazendin. A guy with a keyboard. Online since 1995.">
+  <meta name="theme-color" content="#0e0f11">
 
-<div class="container-fluid index">
-    <div class="row">
-        <div class="col-md-12 panel">
-            <div class="profile-image">
-                <img src="img/profile.jpg" class="img-rounded" height="150" width="150" alt="cfazendin.com" />
-            </div>
-            <h1 class="header profile-header">Christopher Fazendin</h1>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;600&family=Source+Sans+3:wght@400;600&display=swap">
+  <link rel="stylesheet" href="/css/style.css">
 
-            <div class="profile-text">
-                <p>I'm a guy with a keyboard. I try to avoid doing any work on this site if I can. Usually I avoid front-end work and design but I've had a website since 1995 so I have to keep the tradition going. There's also another guy who has my name and only appeared on the Internet recently, which is kind of freaking me out.</p>
-                <p>I've written some programs you've never used or heard of. Sometimes I write little articles about hardware and a couple of times I even made some Youtube videos. Now I get notifications from Youtube about comments that I really don't want to read.</p>
-            </div>
-        </div>
+  <link rel="icon" href="/favicons/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon-180x180.png">
+  <link rel="manifest" href="/favicons/manifest.json">
+</head>
+<body>
+
+  <header class="main">
+    <img src="/img/dusk-1536.jpg"
+         srcset="/img/dusk-960.jpg 960w, /img/dusk-1536.jpg 1536w"
+         sizes="100vw"
+         alt="An empty desert highway at dusk, heading toward the last light on the horizon."
+         fetchpriority="high">
+    <div class="main-text">
+      <div class="mark"></div>
+      <h1>Christopher Fazendin</h1>
+      <p>A guy with a keyboard. Online since 1995.</p>
     </div>
-</div>
+  </header>
+
+  <main>
+    <section class="section" id="apps">
+      <div class="section-head">
+        <h2>Apps</h2>
+        <span>FREE</span>
+      </div>
+
+      
+      <div class="row">
+        <h3>HCR</h3>
+        <p>HTML Color Reference. An app I wrote in 1995.</p>
+        <div class="links">
+          <a href="/hcr/">cfazendin.com/hcr &rarr;</a>
+        </div>
+      </div>
+<!-- To add an app, copy a row below and fill it in. Put the files under /apps/<name>/.
+      <div class="row">
+        <h3>[App One]</h3>
+        <p>[One sentence on what it does.]</p>
+        <div class="links">
+          <a href="/apps/app-one/AppOne-win.zip">Windows</a>
+          <a href="/apps/app-one/AppOne-mac.zip">Mac</a>
+        </div>
+      </div>
+ -->
+
+    </section>
+<!-- Additional section if wanted.
+    <section class="section" id="elsewhere">
+      <div class="section-head">
+        <h2>Elsewhere</h2>
+      </div>
+
+    </section>
+ -->
+  </main>
+
+  <footer class="footer">
+    <div>&copy; 1995&ndash;2026 Christopher Fazendin</div>
+  </footer>
+
+</body>
+</html>
